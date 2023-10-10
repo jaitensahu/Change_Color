@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    /* visibility: ; */
+}
+button{
+    padding: 10px 25px;
+    color: white;   
+    background: linear-gradient(#0040FF, black);
+    margin: 20px;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+    transition: 0.2s linear;
+}
