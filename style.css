@@ -22,6 +22,9 @@ button{
     background: linear-gradient(#0040FF, black);
     margin: 20px;
     border: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgb(0, 234, 255);
 }
 button:active{
     transform: scale(1.1);
